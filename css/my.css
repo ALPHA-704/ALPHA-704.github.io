@@ -1,0 +1,69 @@
+
+
+body {
+  margin:0;
+  padding: 0;
+background-color:black;
+}
+.link1 {
+  background-color: black;
+  font-weight: bold;
+  color: cyan;
+  position: absolute;right: 2rem;
+ top: 8rem;
+ font-size: 25px;
+ cursor:pointer;
+ border-radius: 100px;
+ left: 20px;
+}
+
+.link2 {
+  background-color: black;
+  font-weight: bold;
+  color: cyan;
+  position: absolute;right: 2rem;
+  bottom: 21rem;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 100px;
+  left: 20px;
+}
+.link3 {
+  
+  background-color: black;
+  font-weight: bold;
+  color: cyan;
+  position: absolute;right: 2rem;
+ font-size: 25px;
+ cursor: pointer;
+ border-radius: 100px;
+ top: 25rem;
+ left: 20px;
+ 
+}
+.text {
+  text-align: center;
+  font-size: 13px;
+  
+ 
+}
+.copyright {
+  
+  text-align: center;
+  position: relative;bottom:-32rem;
+ 
+}
+.link1:hover {
+  box-shadow: 0 4px 4px 0 cyan inset,0 4px 4px 0 cyan , 0 4px 4px 0 cyan;
+  text-shadow: 0 0 4px cyan, 0 0 4px cyan;
+
+}
+.link2:hover {
+  box-shadow: 0 4px 4px 0 cyan inset,0 4px 4px 0 cyan , 0 4px 4px 0 cyan;
+  text-shadow: 0 0 4px cyan, 0 0 4px cyan;
+
+}
+.link3:hover {
+  box-shadow: 0 4px 4px 0 cyan inset,0 4px 4px 0 cyan , 0 4px 4px 0 cyan;
+  text-shadow: 0 0 4px cyan, 0 0 4px cyan;
+}
