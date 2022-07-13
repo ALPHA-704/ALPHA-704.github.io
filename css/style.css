@@ -15,6 +15,9 @@ background-color:black;
  cursor:pointer;
  border-radius: 100px;
  left: 20px;
+ border:3px solid #00d7eb;
+ outline: none;
+ transition: ease-in 2s;
 }
 
 .link2 {
@@ -27,6 +30,9 @@ background-color:black;
   cursor: pointer;
   border-radius: 100px;
   left: 20px;
+  border: 3px solid #00d7eb;
+  outline: none;
+  
 }
 .link3 {
   
@@ -39,6 +45,8 @@ background-color:black;
  border-radius: 100px;
  top: 25rem;
  left: 20px;
+ border: 3px solid #00d7eb;
+ outline: none;
  
 }
 .text {
@@ -54,16 +62,11 @@ background-color:black;
  
 }
 .link1:hover {
-  box-shadow: 0 4px 4px 0 cyan inset,0 4px 4px 0 cyan , 0 4px 4px 0 cyan;
-  text-shadow: 0 0 4px cyan, 0 0 4px cyan;
-
+  text-shadow: 0 0 4px cyan, 0 0 4px #00d7eb;
 }
 .link2:hover {
-  box-shadow: 0 4px 4px 0 cyan inset,0 4px 4px 0 cyan , 0 4px 4px 0 cyan;
-  text-shadow: 0 0 4px cyan, 0 0 4px cyan;
-
+  text-shadow: 0 0 4px cyan, 0 0 4px #00d7eb;
 }
 .link3:hover {
-  box-shadow: 0 4px 4px 0 cyan inset,0 4px 4px 0 cyan , 0 4px 4px 0 cyan;
-  text-shadow: 0 0 4px cyan, 0 0 4px cyan;
+    text-shadow: 0 0 4px cyan, 0 0 4px #00d7eb;
 }
